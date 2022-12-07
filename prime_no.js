@@ -1,7 +1,10 @@
-  function prime_no(num){
+  function prime_no(num)
+{
 
     let count=0;
+
     for(let i=0; i<=num;i++){
+
      if(num%i==0){
       count++
    }
@@ -12,8 +15,16 @@
     else
    {
 
+     
+	
+
+
     console.log("Not a Prime")
+	}
+
 }
+
 
   }
      prime_no(23)
+
